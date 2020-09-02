@@ -1,5 +1,9 @@
 # GraphQLProject
 
+This is a small project made for understanding the basics of GraphQL.
+
+This project contains a small web client from which a user can type a graphQL query that is sent through http to a dotnet server. This server send the necessary front-end files to the browser and catch graphQL queries, execute them and send back the requested json object to the client. Then the vuejs framework updates automatically the result section of the webpage with the json object.
+
 ## Instalation
 
 1) Create a dotnet solution
@@ -58,7 +62,7 @@ For example:
 
 ## Project status
 
-For now only a GraphQL query can be done.
+For now only GraphQL queries without any argment can be done.
 
 ## TODO
 
